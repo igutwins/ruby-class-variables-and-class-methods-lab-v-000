@@ -40,7 +40,7 @@ end
 def self.artist_count
   @artist_hash = {}
   @@artists.each do |a|
-    if @artist_hash[a] = nil
+    if @artist_hash[a] == nil
       @artist_hash[a] = 1
     else
       @artist_hash[a] += 1
