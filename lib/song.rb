@@ -20,4 +20,12 @@ def self.genres
   @@genres
 end
 
+def self.genre_count
+  #return key value pairs - keys are genres, values are counts
+end
+
+def self.artist_count
+  #return key value pairs - keys are artists, values are counts
+end
+
 end
