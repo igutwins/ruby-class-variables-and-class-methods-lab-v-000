@@ -30,7 +30,7 @@ def self.genre_count
   #reference the genres array
   #pull out unique items and assign them as keys in a hash
   #count how many of those unique items and assign them as values to that key
-  @genre_hash
+  @genre_hash = {}
   @@genres.each do |g|
      if @genre_hash[g] == nil
        @genre_hash[g] = 1
