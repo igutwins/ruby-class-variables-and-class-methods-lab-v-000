@@ -5,6 +5,7 @@ attr_accessor :name, :artist, :genre
 @@genres = []
 
 def initialize
+  @@songs += 1
 end
 
 end
