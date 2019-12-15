@@ -32,10 +32,10 @@ def self.genre_count
   #count how many of those unique items and assign them as values to that key
   @genre_hash
   @@genres.each do |g|
-     if @genre_hash[g]
-        @genre_hash[g] += 1
-     else
+     if @genre_hash[g] == nil
        @genre_hash[g] = 1
+     else
+       @genre_hash[g] += 1
      end
   end
   @genre_hash
