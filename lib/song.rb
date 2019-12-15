@@ -8,4 +8,8 @@ def initialize
   @@songs += 1
 end
 
+def self.count
+  @@songs
+end
+
 end
