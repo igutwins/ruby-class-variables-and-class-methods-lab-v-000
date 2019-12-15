@@ -35,9 +35,10 @@ def self.genre_count
      if @genre_hash[g]
         @genre_hash[g] += 1
      else
-
+       @genre_hash[g] = 1
      end
   end
+  @genre_hash
 end
 
 def self.artist_count
