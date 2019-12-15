@@ -27,6 +27,17 @@ end
 
 def self.genre_count
   #return key value pairs - keys are genres, values are counts
+  #reference the genres array
+  #pull out unique items and assign them as keys in a hash
+  #count how many of those unique items and assign them as values to that key
+  @genre_hash
+  @@genres.each do |g|
+     if @genre_hash[g]
+        @genre_hash[g] += 1
+     else
+
+     end
+  end
 end
 
 def self.artist_count
